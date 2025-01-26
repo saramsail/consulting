@@ -1,0 +1,445 @@
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.col-left{
+    width: 593px;
+    float: left;
+}
+.col-right{
+    width: 300px;
+    float: right;
+}
+#inner-header{
+    background-color: #161616;
+    height: 125px;
+}
+.logo {
+    padding-top: 44px;
+}
+.searcharea{
+    padding-top: 44px;
+}
+.searchfield{
+    width: 300px;
+    outline: none;
+    border: 1px solid #fff;
+    height: 30px;
+    color: #878787;
+    padding: 10px;
+}
+nav{
+    background: linear-gradient(to bottom,  #37b6d4 0%,#1c9fc7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    height: 70px;
+}
+.top-nav ul {
+    line-height: 70px;
+}
+.top-nav ul li {
+    float: left;
+    padding-right: 20px;
+    background: url("..//images/li-divider.jpg") no-repeat;
+    padding-left: 20px;
+    text-shadow: 1.5px 1.5px 0 #1689b6;
+}
+.top-nav ul li a{
+    text-decoration: none;
+    color: #fff ;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+.top-nav ul li:hover{
+    background-color:black;
+    -webkit-border-radius: 5px;
+    -webkit-border-top-right-radius: 50px;
+    -webkit-border-bottom-left-radius: 50px;
+    -moz-border-radius: 5px;
+    -moz-border-radius-topright: 50px;
+    -moz-border-radius-bottomleft: 50px;
+    border-radius: 5px;
+    border-top-right-radius: 50px;
+     border-bottom-left-radius: 50px;
+
+     transition: all 0.5s ease;
+}
+#divider{
+    background: linear-gradient(to bottom,  #0574a6 0%,#666bb0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    height: 20px;
+}
+#main-content {
+  background: url('..//images/services-bg.jpg');
+    height: 794px;
+}
+.page-info h1{
+     font-size: 22px;
+     padding-top: 20px;
+     margin-bottom: 10px;
+     font-weight: bold;
+     text-shadow: 1.5px 1.5px 0 #fff;
+}
+.Project ul li{
+     float: left;
+     margin-right: 30px;
+     margin-bottom: 30px;
+}
+.Project ul li h3{
+    color: #39b9d6;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-shadow: 1.5px 1.5px 0 #fff;
+}
+.Project ul li img{
+    box-shadow: 1px 1px 7px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 7px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 7px 1px rgba(0,0,0,0.75);
+}
+footer{
+    background-color: #161616;
+    height: 395px;
+}
+.foot-info h2{
+    font-size: 20px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.footer-form ul li{
+    margin-bottom: 10px;
+       
+}
+.footerfield,.footertextarea{
+    width: 580px;
+    height: 30px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+     background: linear-gradient(to bottom,  rgba(253,253,253,1) 0%,rgba(230,230,230,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+.footertextarea {
+    resize: none;
+    height: 180px;
+}
+.social-icon ul li{
+     margin-bottom: 10px;   
+     color: #999999;
+     text-transform: uppercase;
+     font-size: 16px;
+     
+}
+.social-icon ul li span {
+    display: inline-block;
+    width: 50px;
+    vertical-align: middle;
+}
+.footer-divider{
+    background: url(..//images/footer-divider.jpg);
+    height: 2px;
+    margin-bottom: 10px;
+}
+.copyrights p{
+    color: #999999;
+    font-size: 12px;
+}
+.copyrights p a{
+    text-decoration: none;
+    color: #39b9d6;
+}
+.copyrights p a:hover{
+    text-decoration: underline;
+}
+/*************************************************************************************
+                        CONTACT US STYLE PAGR;
+*********************************************************************************************/
+
+.contact-forms ul li {
+    margin-bottom: 10px;
+}
+.contact-forms ul li span {
+    display: inline-block;
+    width: 70px;
+    vertical-align: top;
+    padding-top: 10px;
+}
+.contact-forms ul li:last-child {
+    text-align: right;
+    margin-right: 50px;
+}
+.contactfields, .contacttextarea {
+    width: 500px;
+    border: 1px solid #e6e6e6;
+    height: 30px;
+    outline: none;
+}
+
+.contacttextarea {
+    height: 246px;
+    resize: none;
+}
+
+.btns {
+    background-color: #f1f1f1;
+    border: none;
+    color: #39b9d6;
+    text-decoration: underline;
+    margin-right: -10px;
+    padding-left: 20px;
+}
+
+.map {
+    margin-bottom: 10px;
+}
+
+address p {
+    margin-bottom: 5px;
+}
+
+.contact-info ul li {
+    margin-bottom: 5px;
+}
+
+.contact-info ul li span {
+    display: inline-block;
+    width: 75px;
+}
+
+.contact-info ul li a {
+    color: #39b9d6;
+    text-decoration: none;
+}
+
+.contact-info ul li a:hover {
+    text-decoration: underline;
+}
+/*************************************************************************************
+                        company US STYLE PAGR;
+*********************************************************************************************/
+
+
+.main-management{
+    
+    width: 300px;
+    float: left;
+}
+.main-business{
+
+    width: 590px;
+    float: right;
+}
+
+
+.business-col-one{
+    width: 275px;
+    float: left;
+}
+.business-col-two{
+    width: 275px;
+    float: right;
+}
+.business-info img {
+    margin-bottom: 10px;
+}
+.management{
+    margin-bottom: 30px;
+}
+.management-thumb{
+    width: 80px;
+    float: left;
+}
+.management-detailes{
+    width: 206px;
+    float: right;
+}
+.management-detailes p:first-child{
+    color: #909090;
+    margin-bottom: 5px;
+}
+.management-detailes h2, .business-info h2, .services-detailes h2, .steps ul li span.sir {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #ffff;
+    margin-bottom: 5px;
+    color: #39b9d6;
+}
+.management-detailes p, .business-info p, .main-business p, .services-detailes p  {
+    line-height: 20px;
+}
+.business-info ul li{
+    margin-bottom: 10px;
+    background: url('../images/arrow.jpg') no-repeat;
+    padding-left: 20px;
+}
+
+/******************************************************************************************************************
+                SERVICES PAGE STYLE 
+**********************************************************************************************************/
+
+.services-col-one{
+    width: 282px;
+    float: left;
+    margin-right: 50px;
+}
+.services {
+    margin-bottom: 30px;
+}
+.services-thumb{
+    width: 82px;
+    float: left;
+}
+.services-detailes{
+    width: 185px;
+    float: right;
+}
+.services-detailes p a{
+    color: #39b9d6;
+    text-decoration: none;
+}
+.services-detailes p a:hover{
+    text-decoration: underline;
+}
+.services-col-two{
+    width: 282px;
+    float: left;
+}
+.services-col-three{
+    width: 282px;
+    float: right;
+
+}
+.ad-services-1{
+   
+    width: 218px;
+    float: left;
+}
+.ad-services-2{
+    width: 369px;
+    float: right;
+}
+.ad-services-2 ul li{
+    background: url('../images/arrow.jpg') no-repeat;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+.steps ul li span{
+    display: inline-block;
+    width: 70px;
+    vertical-align: top;   
+}
+.steps ul li {
+    margin-bottom: 20px;
+}
+.steps ul li span.sial{
+    width: 200px;
+    line-height: 15px;
+}
+
+/***********************************************************************************************************************
+               HOME STYLE PAGE 
+*************************************************************************************************************/
+
+.divider{
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#097eb4+0,17c8df+50,148fbe+100 */
+background: linear-gradient(to bottom,  rgba(9,126,180,1) 0%,rgba(23,200,223,1) 50%,rgba(20,143,190,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    height: 400px;
+}
+.page-warp{
+    width: 940px;
+    margin: 0 auto;
+}
+.page-warp img{
+    padding-top: 58px;
+}
+.home img{
+    padding-top: 58px;
+}
+.saram h1{
+    font-size: 22px;
+    padding-top: 80px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-shadow: 1.5px 1.5px 0 #fff;   
+}
+.saram p{
+    font-size: 20px;
+    color: #ccc;
+    line-height: 20px;
+    font-style: italic;
+}
+.main-home{
+    margin-top: 20px;
+}
+.home-col-one{
+    width: 250px;
+    float: left;
+    margin-bottom: 20px;
+}
+.homes{
+    margin-bottom: 10px;
+}
+.home-thumb{
+    width: 85px;
+    float: left;
+}
+.home-detailes{
+    padding-top: 20px;
+    width: 140px;
+    float: right;
+}
+.home-detailes h3{
+    line-height: 20px;
+    font-style: italic;
+    font-size: 20px;
+}
+.home-detailes h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #ffff;
+    margin-bottom: 5px;
+    color: #39b9d6;
+    font-size: 18px;
+    font-style: italic;
+}
+.inside h3{
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.inside p a{
+    color: #39b9d6;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.inside p a:hover{
+    text-decoration: underline;
+}
+.home-col-two{
+    width: 270px;
+    float: right;
+}
+.ali {
+    padding-top: 60px;
+    margin-left: 10px;
+}
+
+.afa p a{
+    color: #39b9d6;
+    text-decoration: none;
+}
+.afa P a:hover{
+    text-decoration: underline;
+}
